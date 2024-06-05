@@ -1,0 +1,58 @@
+window: { 
+  fullscreen: true,
+  windowed: false,
+  bordless: false, #Commas at the end of lists are just superior
+}
+
+this: {may: not, work: maybe, another: {Who: knows, if this: will work}} # This works fine
+
+This: {took: too long, ending: comma, and: no, mapping of mappings inside a mapping: true,} # This works
+
+I'm: {
+  scared: {
+    to see: if this,
+    works: true
+  },
+  help: {
+    this: is hard,
+    idk: why,
+  }
+}
+#MIAMIAMIAM: {Regular: {Regular: inline}, 
+#  Ah: { 
+#       this one has indents: true,
+#       This is disgusting: true,
+#       don't use this: true
+#  }
+#} # Comment for extra fun
+
+#More useless comments cuz I'm proud of how it works
+regular: mapping
+cuz:     i
+hate:    myself
+
+- Hello
+- This
+- is
+- a
+- sequence
+- of
+- scalars
+- You can put a whole sentence here
+
+--- #This is structure with a comment
+- 
+  1: sequences
+  2: of mappings
+  3: shouldn't show
+    1: Second Indent (Not Valid)
+
+#Sequence of sequences
+- [Sequence,     of, sequences]
+- [Testing ,    all, spaces   ]
+- [They    , can be, anywhere ]
+
+1: 
+- This
+- will
+- show
